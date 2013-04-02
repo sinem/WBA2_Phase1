@@ -1,21 +1,12 @@
 {
+
     "gruppenleiter":[
         {
-            "Vorname":"",
-            "Nachname":"",
-            "Email":"",
-            "Geburtsdatum":"",
-            "Erfahrung":"",
-            "Schlagzeug":"",     
+            "Vorname":"", "Nachname":"", "Email":"", "Geburtsdatum":"", "Erfahrung":"", "Schlagzeug":"",     
         },
         "Anmerkung":"Wichtig für meine Gruppe ist..."
         {
-            "Vorname":"Dietrich",
-            "Nachname":"Meier",
-            "Email":"dietrichmeiner23432345@hotmail.fr",
-            "Geburtsdatum":"14.05.1978",
-            "Erfahrung":"Profi",
-            "Schlagzeug":"vorhanden",     
+            "Vorname":"Dietrich", "Nachname":"Meier", "Email":"dietrichmeiner23432345@hotmail.fr", "Geburtsdatum":"14.05.1978", "Erfahrung":"Profi", "Schlagzeug":"vorhanden",     
         }
     ],
     "Anmerkung":"Durchziehn!" ..
