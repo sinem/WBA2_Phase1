@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rezepte xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html"
+
+    <Rezept id="1">
+    
+    <Titel><fett>Lenchen’s Schokoladenkuchen</fett></Titel>
+        <Bild>
+            <Bild id="1" width="150" height="100" src="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/59800-960x720-lenchen-s-schokoladenkuchen.jpg">39/60: Foto von herbstelfe</photo>
+        </Bild>
+        <Zutaten>
+            <Zutaten Menge="200" Einheit="g">Butter</Zutaten>
+            <Zutaten Menge="200" Einheit="g">Zucker</Zutaten>
+            <Zutaten Menge="200" Einheit="g">
+                <link src="http://www.chefkoch.de/rezept-zutateninfo-com.php?ID=1618">Schokolade, Blockschokolade</link>
+            </Zutaten>
+            <Zutaten Menge="120" Einheit="g">Mehl</Zutaten>
+            <Zutaten Menge="1/2" Einheit="TL">Backpulver</Zutaten>
+            <Zutaten Menge="1" Einheit="Pkt.">Vanillezucker</Zutaten>
+            <Zutaten Menge="4" Einheit="">
+                <link src="http://www.chefkoch.de/rezept-zutateninfo-com.php?ID=36">Ei(er)</link>
+            </Zutaten>
+        </zutaten>
+        
+        <Portion value="" name="Portionen" />
+        <Button name="Umrechnen">
+        
+        <Titel2>Zubereitung</Titel2>
+        <Arbeitszeit name="Arbeitszeit:" value="1" Einheit="Std." />
+        <Schwierigkeitsgrad name="Schwierigkeitsgrad:" value="normal" />
+        <Brennwert name="Brennwert p.P.:" value="295" Einheit="kcal"/>
+        
+        
+        <Zubereitung> Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. 
+        Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. 
+        Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. 
+        In eine gut gefettete Form geben. 
+        Bei 180°Grad 40 – 50 Minuten backen. </Zubereitung>
+   
+    </Rezept>
+</Rezepte>
