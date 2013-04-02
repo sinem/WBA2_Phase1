@@ -38,4 +38,25 @@
         Bei 180°Grad 40 – 50 Minuten backen. </Zubereitung>
    
     </Rezept>
-</Rezepte>
+    
+    <Rezept id="1">
+        <Kommentar id="1">
+            <Name>swieselchen</Name>
+            <id>1</id>
+            <Bild>http://static.chefkoch-cdn.de/ck.de/avatar/5ab77fec95e69919037a2ea283c4d6a6-60fix.jpg</userpic>
+            <Datum>07.02.2002 18:49 Uhr</Datum>
+            <Kommentar>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, 
+                       zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. 
+                       Ich übrigends auch, super Rezept.</Kommentar>
+        </Kommentar>
+        
+        <Kommentar id="2">
+            <name>Mane</name>
+            <id>2</id>
+            <Bild>http://static.chefkoch-cdn.de/ck.de/avatar/9029c94d48d6ef778a21f5284bfa2667-60fix.jpg</Bild>
+            <Datum>01.01.1900 00:00</Datum>
+            <Kommentar>Super Duper</Kommentar>
+        </Kommentar>
+    </Rezept>
+
+
