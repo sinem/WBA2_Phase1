@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Aufg_3c" xmlns:tns="http://www.example.org/Aufg_3c" elementFormDefault="qualified">
+ <xsd:element name="Rezepte">
+ <xsd:complexType>
+ <xsd:sequence>
+ <xsd:element name="Rezept">
+ <xsd:complexType>
+ <xsd:sequence>
+ <xsd:element name="Titel">
+ <xsd:complexType>
+ <xsd:sequence>
+ <xsd:element name="Bild">
+ <xsd:complexType>
+ <xsd:sequence>
+ <xsd:attribute name="id" type="xsd:int" />
+ <xsd:attribute name="width" type="xsd:int" />
+ <xsd:attribute name="height" type="xsd:int" />
+ <xsd:attribute name="src" type="xsd:string" />
+ </xsd:sequence>
+ </xsd:complexType>
+ </xsd:element>
+ <xsd:element name="Zutaten">
+ <xsd:complexType>
+ <xsd:sequence>
+ <xsd:element name="Zutaten">
+ <xsd:complexType>
+ <xsd:attribute name="Menge" type="xsd:int" />
+ <xsd:attribute name="Einheit" type="xsd:string" />
+ </xsd:complexType>
+ </xsd:element>
+ </xsd:sequence>
+ </xsd:complexType>
+ </xsd:element>
+ <xsd:element name="Titel2">
+ <xsd:complexType>
+ <xsd:sequence>
+ </xsd:sequence>
+ </xsd:complexType>
+ </xsd:element>
+ <xsd:element name="Arbeitszeit">
+ <xsd:complexType>
+ <xsd:attribute name="value" type="xsd:int" />
+ </xsd:complexType>
+ </xsd:element
+ <xsd:element name="Schwierigkeitsgrad">
+ <xsd:complexType>
+ <xsd:attribute name="value" type="xsd:string" />
+ </xsd:complexType>
+ </xsd:element>
+ <xsd:element name="Brennwert">
+ <xsd:complexType>
+ <xsd:attribute name="Value" type="xsd:int" />
+ <xsd:attribute name="Einheit" type="xsd:string" />
+ <xsd:complexType>
+ </xsd:element>
+ <xsd:element name="Zubereitung" type="xsd:string" />
+ </xsd:sequence>
+ <xsd:attribute name="id" type="xsd:int" />
+ </xsd:complexType>
+ </xsd:element>
+ </xsd:sequence>
+ </xsd:complexType>
+ </xsd:element>
+ </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Rezept">
+  <xsd:complexType>
+  <xsd:sequence>
+  <xsd:element name="Kommentar">
+  <xsd:attribute name="Name" type="xsd:string" />
+  <xsd:attribute name=id type="xsd:int" />
+  <xsd:element name="Bild">
+  <xsd:complexType>
+  <xsd:sequence>
+  <xsd:element name="Datum" type="xsd:date" />
+  <xsd:element name="Kommentar">
+  <xsd:complexType>
+  <xsd:sequence>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:element> 
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:complexType>
+</schema>
