@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Rezepte xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html">
+
+    <Rezept Titel="">
+        <Bild>
+            <Bild width="" height="" src=""></Bild>
+        </Bild>
+        <Zutaten>
+            <Zutaten Name="" Menge="" Einheit=""></Zutaten>
+            </Zutaten>
+        <Titel2>Zubereitung</Titel2>
+        <Arbeitszeit Name="Arbeitszeit:" value="" Einheit=""></Arbeitszeit>
+        <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" Value=""></Schwierigkeitsgrad>
+        <Brennwert Name="Brennwert p.P.:" value="" Einheit=""></Brennwert>
+        
+        
+        <Rezept Zubereitung=""></Rezept>
+   
+    
+        <Kommentar id="" Name="" Bild="" Datum="" Kommentar=""></Kommentar>
+        
+        </Rezept>
+        </Rezepte>
