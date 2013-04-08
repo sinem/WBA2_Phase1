@@ -1,91 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Aufg_3c" xmlns:tns="http://www.example.org/Aufg_3c" elementFormDefault="qualified">
- <xsd:element name="Rezepte">
- <xsd:complexType>
- <xsd:sequence>
- <xsd:element name="Rezept">
- <xsd:complexType>
- <xsd:sequence>
- <xsd:element name="Titel">
- <xsd:complexType>
- <xsd:sequence>
- <xsd:element name="Bild">
- <xsd:complexType>
- <xsd:sequence>
- <xsd:attribute name="id" type="xsd:int" />
- <xsd:attribute name="width" type="xsd:int" />
- <xsd:attribute name="height" type="xsd:int" />
- <xsd:attribute name="src" type="xsd:string" />
- </xsd:sequence>
- </xsd:complexType>
- </xsd:element>
- <xsd:element name="Zutaten">
- <xsd:complexType>
- <xsd:sequence>
- <xsd:element name="Zutaten">
- <xsd:complexType>
- <xsd:attribute name="Menge" type="xsd:int" />
- <xsd:attribute name="Einheit" type="xsd:string" />
- </xsd:complexType>
- </xsd:element>
- </xsd:sequence>
- </xsd:complexType>
- </xsd:element>
- <xsd:element name="Titel2">
- <xsd:complexType>
- <xsd:sequence>
- </xsd:sequence>
- </xsd:complexType>
- </xsd:element>
- <xsd:element name="Arbeitszeit">
- <xsd:complexType>
- <xsd:attribute name="value" type="xsd:int" />
- </xsd:complexType>
- </xsd:element
- <xsd:element name="Schwierigkeitsgrad">
- <xsd:complexType>
- <xsd:attribute name="value" type="xsd:string" />
- </xsd:complexType>
- </xsd:element>
- <xsd:element name="Brennwert">
- <xsd:complexType>
- <xsd:attribute name="Value" type="xsd:int" />
- <xsd:attribute name="Einheit" type="xsd:string" />
- <xsd:complexType>
- </xsd:element>
- <xsd:element name="Zubereitung" type="xsd:string" />
- </xsd:sequence>
- <xsd:attribute name="id" type="xsd:int" />
- </xsd:complexType>
- </xsd:element>
- </xsd:sequence>
- </xsd:complexType>
- </xsd:element>
- </xsd:sequence>
-  </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="Rezept">
-  <xsd:complexType>
-  <xsd:sequence>
-  <xsd:element name="Kommentar">
-  <xsd:attribute name="Name" type="xsd:string" />
-  <xsd:attribute name=id type="xsd:int" />
-  <xsd:element name="Bild">
-  <xsd:complexType>
-  <xsd:sequence>
-  <xsd:element name="Datum" type="xsd:date" />
-  <xsd:element name="Kommentar">
-  <xsd:complexType>
-  <xsd:sequence>
-  </xsd:sequence>
-  </xsd:complexType>
-  </xsd:element>
-  </xsd:sequence>
-  </xsd:sequence>
-  </xsd:complexType>
-  </xsd:element>
-  </xsd:element> 
-  </xsd:element>
-  </xsd:sequence>
-  </xsd:complexType>
-</schema>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Rezepte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Rezept">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Titel"/>
+              <xs:element name="Bild">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Bild">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:int" name="id"/>
+                            <xs:attribute type="xs:int" name="width"/>
+                            <xs:attribute type="xs:int" name="height"/>
+                            <xs:attribute type="xs:string" name="src"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Zutaten">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Zutaten" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="link" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:anyURI" name="src"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="Menge" use="optional"/>
+                        <xs:attribute type="xs:string" name="Einheit" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="link">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:anyURI" name="src"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Titel2"/>
+              <xs:element name="Arbeitszeit">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="name"/>
+                      <xs:attribute type="xs:int" name="value"/>
+                      <xs:attribute type="xs:string" name="Einheit"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Schwierigkeitsgrad">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="name"/>
+                      <xs:attribute type="xs:string" name="Value"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Brennwert">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="name"/>
+                      <xs:attribute type="xs:int" name="value"/>
+                      <xs:attribute type="xs:string" name="Einheit"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Zubereitung"/>
+              <xs:element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Name" minOccurs="0"/>
+                    <xs:element type="xs:int" name="id"/>
+                    <xs:element type="xs:anyURI" name="Bild"/>
+                    <xs:element type="xs:int" name="Datum"/>
+                    <xs:element type="xs:string" name="Kommentar"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:int" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:int" name="id"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
