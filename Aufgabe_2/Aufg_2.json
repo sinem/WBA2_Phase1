@@ -1,0 +1,23 @@
+{
+  "anmeldung": {
+  "-xmlns": "www.bliblablup/anmeldung.de",
+  "Schlagzeugwettbewerb": {
+  "gruppe": {
+  "gruppenleiter": {
+          
+},
+"mitglieder": {
+"mitglieder": {
+"-Vorname": "Dietrich",
+"-Nachname": "Meier",
+"-Email": "dietrichmeiner23432345@hotmail.fr",
+"-Geburtstag": "14.05.1978",
+"-Erfahrung": "Profi",
+"-Schlagzeug": "vorhanden"
+          }
+        }
+      },
+      "Anmerkung": "Durchziehn! .."
+    }
+  }
+}

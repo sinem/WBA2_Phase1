@@ -7,7 +7,7 @@
             <Bild width="" height="" src=""></Bild>
         </Bild>
         <Zutaten>
-            <Zutaten Name="" Menge="" Einheit=""></Zutaten>
+            <Zutat Name="" Menge="" Einheit=""></Zutat>
             </Zutaten>
         <Titel2>Zubereitung</Titel2>
         <Arbeitszeit Name="Arbeitszeit:" value="" Einheit=""></Arbeitszeit>
