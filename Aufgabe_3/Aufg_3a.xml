@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Rezepte xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html">
+<Recipe xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html">
 
     <Rezept id="1">
     
@@ -50,5 +50,5 @@
             <Kommentar>Super Duper</Kommentar>
         </Kommentar>
      </Rezept>
-</Rezepte>
+</Recipe>
 

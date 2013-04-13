@@ -1,22 +1,28 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="Rezepte">
+  <xs:element name="Recipe">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Rezept">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Bild">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="Bild" minOccurs="0" maxOccurs="unbounded">
-                      <xs:complexType>
-                        <xs:simpleContent>
-                          <xs:extension base="xs:string">
+             <xs:element name="Titel">
+              <xs:complexType>
+               <xs:sequence>
+                <xs:element name="Bilder">
+                 <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="Bild" minOccurs="0" maxOccurs="unbounded">
+                       <xs:complexType>
+                         <xs:simpleContent>
+                           <xs:extension base="xs:string">
                             <xs:attribute type="xs:int" name="width"/>
                             <xs:attribute type="xs:int" name="height"/>
                             <xs:attribute type="xs:string" name="src"/>
-                          </xs:extension>
-                        </xs:simpleContent>
+                           </xs:extension>
+                          </xs:simpleContent>
+                         </xs:complexType>
+                        </xs:element>
+                       </xs:sequence>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
@@ -45,7 +51,7 @@
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
                       <xs:attribute type="xs:string" name="Name"/>
-                      <xs:attribute type="xs:int" name="value"/>
+                      <xs:attribute type="xs:int" name="wert"/>
                       <xs:attribute type="xs:int" name="Einheit"/>
                     </xs:extension>
                   </xs:simpleContent>
@@ -56,7 +62,7 @@
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
                       <xs:attribute type="xs:string" name="Name"/>
-                      <xs:attribute type="xs:int" name="Value"/>
+                      <xs:attribute type="xs:int" name="wert"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
@@ -66,13 +72,13 @@
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
                       <xs:attribute type="xs:string" name="Name"/>
-                      <xs:attribute type="xs:int" name="value"/>
+                      <xs:attribute type="xs:int" name="wert"/>
                       <xs:attribute type="xs:int" name="Einheit"/>
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="Rezept">
+              <xs:element name="Zubereitung">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -95,7 +101,6 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:string" name="Titel"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
