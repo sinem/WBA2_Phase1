@@ -1,0 +1,33 @@
+XML & JSON:
+    Es ist sinnvoll diese Daten in einem XML Dokument zu erfassen, 
+    da somit die Verarbeitung dieser Daten erleichtert wird.
+	Durch ein XML Schema können die Daten leicht validiert werden und 
+	durch seine Standardisierung einfach von anderen Systemen eingelesen werden.
+	XML stellt strukturierte Daten dar und orientiert sich optisch teilweise an HTML
+	(XML-Tags - durch '<' und '>' geklammerte Wörter und Attribute 
+	wie z.B der Form name="value"), welches für einige sicherlich von Vorteil ist aufgrund der einfachen und 
+	übersichtlichen Bauform.
+
+	XML und JSON sind beide einheitliche Formate zum Austausch von Daten zwischen verteilten Systemen.
+	JSON hat wiederum den Vorteil, dass man JavaScript Objekte erstellen kann.
+	Dies erspart einiges an Aufwand.
+	
+	
+		 		XML                         |                  JSON
+									        |
+_________|__________________________________|__________________________________________				
+Vorteil: | *leicht lesbares Format		    | *leicht geringere Grösse ,
+		 | *übersichtliche Syntax			|  als XML bei gleicher Information
+     	 | *Hat viele Werkzeuge, um seine   |  Information
+     	 |	Struktur leichter abzufragen	| *"einfachere" Handhabung aus Javascript
+     	 |							        | *schneller als ein XML‑Dokument
+		 |							        | *mehr im Einklang mit dem Rest der 
+		 | 									|  JavaScript-Sprache als Skripte für XML-Daten
+		 | 									| *kann alle Unicode-Zeichen darstellen
+_________|__________________________________|___________________________________________
+Nachteil:| *teilweise redundante Strukturen | *kompliziertere Syntax
+		 | *benötigt JavaScript, um die     |
+		 |	Daten in der HTML-Seite		    |
+		 |	einzufügen					    |
+		 | *Xml kann nicht alle Unicode-    |
+		 | Zeichen in UTF-8 darstellen      |
