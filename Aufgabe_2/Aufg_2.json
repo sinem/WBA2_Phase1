@@ -1,23 +1,23 @@
 {
-  "anmeldung": {
-  "-xmlns": "www.bliblablup/anmeldung.de",
-  "Schlagzeugwettbewerb": {
-  "gruppe": {
-  "gruppenleiter": {
-          
+"anmeldung": {
+"-xmlns": "www.bliblablup/anmeldung.de",
+"Schlagzeugwettbewerb": {
+"gruppe": {
+"gruppenleiter": {
+"Person": {
+            
 },
 "mitglieder": {
-"mitglieder": {
-"-Vorname": "Dietrich",
-"-Nachname": "Meier",
-"-Email": "dietrichmeiner23432345@hotmail.fr",
-"-Geburtstag": "14.05.1978",
-"-Erfahrung": "Profi",
-"-Schlagzeug": "vorhanden"
-          }
-        }
-      },
-      "Anmerkung": "Durchziehn! .."
-    }
-  }
+"Vorname": "Dietrich",
+"Nachname": "Meier",
+"E-Mail": "dietrichmeiner23432345@hotmail.fr",
+"Geburtsdatum": "14.05.1978",
+"Erfahrung": "Profi",
+"Schlagzeug": "vorhanden"
+},
+"Anmerkung": "Durchziehn! .."
+}
+}
+}
+}
 }

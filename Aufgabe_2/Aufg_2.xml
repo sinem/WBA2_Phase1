@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <anmeldung xmlns="www.bliblablup/anmeldung.de">
 
 <Schlagzeugwettbewerb>
@@ -12,13 +11,25 @@
 		   <Geburtsdatum></Geburtsdatum>
 		   <Erfahrung></Erfahrung>
 		   <Schlagzeug></Schlagzeug>
-		                         </gruppenleiter>
 		        <Anmerkung></Anmerkung>
+	    <Person>
+	       <Vorname></Vorname>
+		   <Nachname></Nachname>
+		   <E-Mail></E-Mail>
+		   <Geburtsdatum></Geburtsdatum>
+		   <Erfahrung></Erfahrung>
+		   <Schlagzeug></Schlagzeug>		        
+	    </Person>
 		<mitglieder>
-			<mitglieder Vorname="Dietrich" Nachname="Meier" Email="dietrichmeiner23432345@hotmail.fr" Geburtstag="14.05.1978" Erfahrung="Profi" Schlagzeug="vorhanden" />
+		   <Vorname>Dietrich</Vorname>
+		   <Nachname>Meier</Nachname>
+		   <E-Mail>dietrichmeiner23432345@hotmail.fr</E-Mail>
+		   <Geburtsdatum>14.05.1978</Geburtsdatum>
+		   <Erfahrung>Profi</Erfahrung>
+		   <Schlagzeug>vorhanden</Schlagzeug>
 		</mitglieder>
-	</gruppe>
 	            <Anmerkung>Durchziehn! ..</Anmerkung>
+	  </gruppenleiter>
+   </gruppe>
 </Schlagzeugwettbewerb>
-
 </anmeldung>
