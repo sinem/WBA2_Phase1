@@ -1,0 +1,62 @@
+Namesspace:
+
+                 XML-Namensräume bieten eine einfache Möglichkeit, um Element- und Attributnamen, 
+                 die in "Extensible Markup Language"-Dokumenten verwendet werden können, eindeutig 
+                 zu benennen.Die Element- und Attributnamen werden mit Namensräumen verknüpft, die 
+                 durch URI-Verweise identifiziert werden.
+				 Außerdem werden Namespaces dazu benutzt um in einem XML Dokument mehrere 
+				 unterschiedliche XML-Sprachen zu mischen.
+				 
+				 <?xml version="1.0" encoding="UTF-8"?>
+                 <anmeldung xmlns="www.bliblablup/anmeldung.de">
+                 <gruppenleiter>
+                   <gruppe>
+				     <gruppenleiter>
+				     </gruppenleiter>
+				   </gruppe>
+				 </gruppenleiter>
+				 
+
+Wohlgeformtheit (well-formed):
+       
+                 Ein XML-Dokument ist dann wohlgeformt, wenn es zunächst die XML-Deklaration 
+                 zu Beginn des Dokumentes enthält, wie in Aufgabe 2 zu sehen sein wird.
+                 
+                 <?xml version="1.0" encoding="UTF-8"?>
+                 
+                 Die XML-Deklaration beinhaltet die Versionsnummer, welches sich auf die 
+                 Sprachspezifikation von XML bezieht. Derzeit ist die Version 1.0 von XML maßgeblich.
+                 Zudem kann das Dokument auch ein Attribut besitzen, welches zur Verwendung
+                 von Zeichenketten "encoding" hinzugefügt wird.
+                 Jedes wohlgeformte XML-Dokument muss mindestens ein Datenelement haben:
+                 
+                 <?xml version="1.0" encoding="UTF-8"?>
+    			 <anmeldung xmlns="www.bliblablup/anmeldung.de">
+				   <Schlagzeugwettbewerb>
+				   </Schlagzeugwettbewerb>
+				 
+				 ODER
+				 
+				 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                 <xs:element name="Recipe">
+                   <xs:complexType>
+                     <xs:sequence>
+                     </xs:sequence>
+                   </xs:complexType>
+                 </xs:element>
+                 </xs:schema>
+				 
+				 Außerdem besitzt jedes XML-Dokument nur ein Wurzelelement und Nicht-Wurzel-Elemente
+				 müssen von überliegenden Elementen umschlossen werden.
+				 Elemente mit Inhalten besitzen ein öffnendes und ein schließendes Tag und Attributwerte
+				 werden von Anführungsstrichen eingeschlossen.
+				 Alle unbedingt erforderlichen Attribute sind angegeben, befinden sich im richtigen 
+				 Wertebereich und entsprechen dem angegeben Typ. Für die eingesetzten Elemente gilt, 
+				 dass diese korrekt ineinander verschachtelt sind.
+				 
+				 
+Validität:    
+ 				 Valide XML-Instanzen müssen wohlgeformt sein, und darüber hinaus von einer DTD oder einem XML-Schema abgeleitet 
+ 				 sein und allen Deklarationen des Inhaltsmodells, die in der DTD oder dem XML-Schema definiert wurden, entsprechen.
+ 				 
+				 
