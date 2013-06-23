@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<anmeldung xmlns="www.bliblablup/anmeldung.de">
-
 <Schlagzeugwettbewerb>
 	<gruppe>
-		<gruppenleiter>
+		<Person>
 		   <Vorname></Vorname>
 		   <Nachname></Nachname>
 		   <E-Mail></E-Mail>
 		   <Geburtsdatum></Geburtsdatum>
 		   <Erfahrung></Erfahrung>
 		   <Schlagzeug></Schlagzeug>
-		        <Anmerkung></Anmerkung>
+		</Person>
+	     	<Anmerkung></Anmerkung>
+    </gruppe>
+</Schlagzeugwettbewerb>
+
+<Schlagzeugwettbewerb>
+   <gruppe>
 	    <Person>
-	       <Vorname></Vorname>
-		   <Nachname></Nachname>
-		   <E-Mail></E-Mail>
-		   <Geburtsdatum></Geburtsdatum>
-		   <Erfahrung></Erfahrung>
-		   <Schlagzeug></Schlagzeug>		        
-	    </Person>
-		<mitglieder>
-		   <Vorname>Dietrich</Vorname>
+	       <Vorname>Dietrich</Vorname>
 		   <Nachname>Meier</Nachname>
-		   <E-Mail>dietrichmeiner23432345@hotmail.fr</E-Mail>
+		   <E-Mail>dietrichmeier234324234@hotmail.fr</E-Mail>
 		   <Geburtsdatum>14.05.1978</Geburtsdatum>
-		   <Erfahrung>Profi</Erfahrung>
-		   <Schlagzeug>vorhanden</Schlagzeug>
-		</mitglieder>
+		   <Erfahrung>2</Erfahrung>
+		   <Schlagzeug>1</Schlagzeug>		        
+	    </Person>
+		<Person>
+		   <Vorname>Oli</Vorname>
+		   <Nachname>Schmitz</Nachname>
+		   <E-Mail>olischmitz234535345345@hotmail.fr</E-Mail>
+		   <Geburtsdatum>24.04.1973</Geburtsdatum>
+		   <Erfahrung>3</Erfahrung>
+		   <Schlagzeug>2</Schlagzeug>
+		</Person>
 	            <Anmerkung>Durchziehn! ..</Anmerkung>
-	  </gruppenleiter>
    </gruppe>
 </Schlagzeugwettbewerb>
-</anmeldung>

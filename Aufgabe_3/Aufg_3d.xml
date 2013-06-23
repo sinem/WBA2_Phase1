@@ -1,68 +1,157 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Recipe xmlns="http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html">
-  
-   <Rezept id="">
-   <Titel></Titel>
-      <Bilder>
-         <Bild width="" height="" src="" />
-      </Bilder>
-      
-      <Zutaten>
-         <Zutat Name="" Menge="" Einheit="" />
-      </Zutaten>
-      
-      <Titel2>Zubereitung</Titel2>
-      
-      <Arbeitszeit Name="Arbeitszeit:" wert="" Einheit="" />
-      <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="" />
-      <Brennwert Name="Brennwert p.P.:" wert="" Einheit="" />
-      <Zubereitung Zubereitung="" />
-      
-      <Kommentar id="" Name="" Bild="" Datum="" Kommentar="" />
-   </Rezept>
-   
-   
-   //1. Datensatz
-   <Rezept id="1">
-   <Titel>Schokomuffins</Titel>
-   <Bilder>
-       <Bild width="150" height="150" src="www.dsdsdfsdf.dfds" />
-   </Bilder>
-   
-   <Zutaten>
-       <Zutat Name="Schokolade" Menge="200" Einheit="g" />
-       <Zutat Name="Mehl" Menge="100" Einheit="g" />
-   </Zutaten>
-   
-   <Arbeitszeit Name="Arbeitszeit:" wert="10" Einheit="min" />
-   <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="einfach" />
-   <Brennwert Name="Brennwert p.P.:" wert="500" Einheit="kcal" />
-   <Zubereitung Zubereitung="Zunächst ..." />
-      
-   <Kommentar id="1" Name="maus" Bild="www.sdfsdfsvdfg.asd" Datum="19.06.1990" Kommentar="Hey das ist toll" />
-   </Rezept>
-   
-   
-   //2.Datensatz
-   <Rezept id="2435">
-   
-   <Titel>Tortellini mit Spinat</Titel>
-   <Bilder>
-       <Bild width="150" height="150" src="www.sgdhrhdgf.wsad" />
-   </Bilder>
-   
-   <Zutaten>
-       <Zutat Name="Mehl" Menge="200" Einheit="g" />
-       <Zutat Name="Spinat" Menge="100" Einheit="g" />
-   </Zutaten>
-   
-   <Arbeitszeit Name="Arbeitszeit:" wert="30" Einheit="min" />
-   <Schwierigkeitsgrad Name="Schwierigkeitsgrad:" wert="mittel" />
-   <Brennwert Name="Brennwert p.P.:" wert="700" Einheit="kcal" />
-   <Zubereitung Zubereitung="Erst den Teig....." />
-      
-   <Kommentar id="1" Name="maus" Bild="www.sdfsdfsvdfg.asd" Datum="19.06.1990" Kommentar="Hey das ist toll" />
-   </Rezept>
-   
-   
-</Recipe>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Rezepte>
+    <rezept id="1">
+        <titel>Lenchens Schokoladenkuchen</titel>
+        <bilder>
+            <bild>
+                <benutzer>naschkatze65</benutzer>
+                <url>img/naschkatze.png</url>
+            </bild>
+            <bild>
+                <benutzer>garfield84</benutzer>
+                <url>img/garfield.png</url>
+            </bild>
+        </bilder>
+        <zutaten portion="1">
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Butter</name>
+            </zutat>
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Zucker</name>
+            </zutat>
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Schokolade,Blockschokolade</name>
+            </zutat>
+            <zutat>
+                <betrag>7.5</betrag>
+                <einheit>g</einheit>
+                <name>Mehl</name>
+            </zutat>
+            <zutat>
+                <betrag>0.03</betrag>
+                <einheit>TL</einheit>
+                <name>Backpulver</name>
+            </zutat>
+            <zutat>
+                <betrag>0.06</betrag>
+                <einheit>Pck</einheit>
+                <name>Vanillezucker</name>
+            </zutat>
+            <zutat>
+                <betrag>0.25</betrag>
+                <einheit>Stck</einheit>
+                <name>Eier</name>
+            </zutat>
+        </zutaten>
+        <vorbereitung>
+            <arbeitszeit>60.0</arbeitszeit>
+            <brennwert>295.0</brennwert>
+            <zubereitung>Butter und Schokolade im Wasserbad schmelzen. Eier
+trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker
+verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen.
+Mehl mit dem Backpulver in die Masse sieben und zum Schluss die
+steifen Eiweiße vorsichtig unterheben. In eine gut gefettete
+Form geben.
+Bei 180°Grad 40 – 50 Minuten backen.
+			</zubereitung>
+        </vorbereitung>
+        <kommentare>
+        </kommentare>
+       </rezept>
+
+    <Rezepte>
+    <rezept id="2">
+        <titel>Lenchens Schokoladenkuchen</titel>
+        <bilder>
+            <bild>
+                <benutzer>naschkatze65</benutzer>
+                <url>img/naschkatze.png</url>
+            </bild>
+            <bild>
+                <benutzer>garfield84</benutzer>
+                <url>img/garfield.png</url>
+            </bild>
+        </bilder>
+        <zutaten portion="1">
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Butter</name>
+            </zutat>
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Zucker</name>
+            </zutat>
+            <zutat>
+                <betrag>12.5</betrag>
+                <einheit>g</einheit>
+                <name>Schokolade,Blockschokolade</name>
+            </zutat>
+            <zutat>
+                <betrag>7.5</betrag>
+                <einheit>g</einheit>
+                <name>Mehl</name>
+            </zutat>
+            <zutat>
+                <betrag>0.03</betrag>
+                <einheit>TL</einheit>
+                <name>Backpulver</name>
+            </zutat>
+            <zutat>
+                <betrag>0.06</betrag>
+                <einheit>Pck</einheit>
+                <name>Vanillezucker</name>
+            </zutat>
+            <zutat>
+                <betrag>0.25</betrag>
+                <einheit>Stck</einheit>
+                <name>Eier</name>
+            </zutat>
+        </zutaten>
+        <vorbereitung>
+            <arbeitszeit>60.0</arbeitszeit>
+            <brennwert>295.0</brennwert>
+            <zubereitung>Butter und Schokolade im Wasserbad schmelzen. Eier
+trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker
+verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen.
+Mehl mit dem Backpulver in die Masse sieben und zum Schluss die
+steifen Eiweiße vorsichtig unterheben. In eine gut gefettete
+Form geben.
+Bei 180°Grad 40 – 50 Minuten backen.
+			</zubereitung>
+        </vorbereitung>
+        <kommentare>
+            <kommentar>
+                <benutzer>
+                    <benutzername>swieselchen</benutzername>
+                    <avatar>img/swieselchen.png</avatar>
+                </benutzer>
+                <datum>07.02.2002 18:49 Uhr</datum>
+                <nachricht>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung:
+statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich
+habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG
+war total begeistert. Ich übrigends auch, super Rezept.
+				</nachricht>
+            </kommentar>
+            <kommentar>
+                <benutzer>
+                    <benutzername>Mane</benutzername>
+                    <avatar>img/Mane.png</avatar>
+                </benutzer>
+                <datum>07.01.2003 15:06 Uhr</datum>
+                <nachricht>Habe ihn eben gebacken und bin begeistert.Super Rezept:-)
+
+LG Man
+				</nachricht>
+            </kommentar>
+        </kommentare>
+</rezept>
+</Rezepte>
+</Rezepte>
